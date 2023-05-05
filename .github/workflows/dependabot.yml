@@ -1,0 +1,22 @@
+name: Dependabot
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  dependabot:
+    name: Dependabot
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Dependabot
+        uses: dependabot/dependabot-core@stable
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          directory: '/'
+          update: true
+          allow:
+            - language: python
