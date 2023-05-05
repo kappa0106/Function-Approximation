@@ -1,4 +1,9 @@
 # Function-Approximation
+
+![GitHub](https://img.shields.io/github/license/kappa0106/Function-Approximation?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/kappa0106/Function-Approximation?style=for-the-badge)
+
+
 ## Description
 The dataset contains the data which are the outputs from an unknown function $y=f(x_1,x_2)$.
 Note that the given training dataset has been disturbed by some noise. You are now required to design a network to remove the introduced noise. After finishing your network training, you need to produce the outputs for a given testing dataset. Kaggle will compute the **mean square error (MSE)** between your outputs and the true outputs for the performance evaluation of your network.
