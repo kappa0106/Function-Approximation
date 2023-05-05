@@ -2,6 +2,8 @@
 
 ![GitHub](https://img.shields.io/github/license/kappa0106/Function-Approximation?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kappa0106/Function-Approximation?style=for-the-badge)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=kappa0106/Function-Approximation&identifier=f472f0e)](https://dependabot.com)
+
 
 
 ## Description
